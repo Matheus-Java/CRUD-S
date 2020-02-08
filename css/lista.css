@@ -1,0 +1,84 @@
+@charset "UTF-8";
+
+h1{
+         text-align: center;
+         padding: 0px 5px;
+         color: white;
+}
+
+div #lista-produtos{
+         
+}
+
+div#lista-produtos ul{
+         text-align: center;
+         padding: 5px 0px;
+         background-color: black;
+         margin: 50px auto;
+         width: 50%;
+}
+
+div#lista-produtos ul li{
+         display: inline;
+         margin: 15px;
+         
+}
+
+div#lista-produtos ul li a{
+         text-decoration: none;
+         color: #F7D622;
+         
+}
+
+div#lista-produtos ul li a:hover{
+         text-decoration: underline;
+         color: white;
+}
+
+
+
+table{
+         background-color: rgba(0, 0, 0, .2);
+         width: 60%;
+         margin: 80px auto;
+         padding-right: 0px;
+}
+
+tr{
+         line-height: 30px;
+         
+}
+
+tr#titulo{
+         font-weight: bold;
+         background-color: rgba(0, 0, 0, .6);
+         color: wheat;
+         text-align: center;
+}
+
+tr#dados{
+         color: white;
+         text-align: justify;
+}
+
+td{
+         padding: 0px 30px;
+}
+
+.botao{
+         background-color: white;
+         color: black;
+         padding: 5px;
+         margin: 0px 5px;
+         text-decoration: none;
+}
+.botao:hover{
+         text-decoration:underline;
+         color: black;
+}
+
+td#botao-lateral{
+         padding-right: 0px;
+         
+}
+

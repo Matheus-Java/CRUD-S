@@ -1,0 +1,21 @@
+	create table categorias(
+		id int(11) auto_increment primary key not null,
+		titulo varchar(190) not null
+	);
+
+	
+	create table produtos(
+		id_produto int(11) auto_increment primary key not null,
+		nome varchar(190),
+		preco real,
+		categoria_id int(11),
+		foreing key (categoria_id) reference categoria (categoria_id)
+	);
+
+
+/// DADOS DA CATEGORIA
+
+INSERT INTO categorias (id,titulo) VALUES (2,'Eletrodomésticos');
+INSERT INTO categorias (id,titulo) VALUES (3,'Celulares');
+INSERT INTO categorias (id,titulo) VALUES (4,'Alimentos');
+INSERT INTO categorias (id,titulo) VALUES (5,'Informática');
