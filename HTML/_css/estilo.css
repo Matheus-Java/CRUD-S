@@ -3,6 +3,19 @@
     margin: 0px;
     padding: 0px;
 }
+.bg-fundo{
+    background-color: rgb(179, 179, 179);
+}
+.bg-conteudo{
+    background-color: white;
+}
+/*Formatação do conteúdo a direita*/
+.cont-direita{
+    box-shadow: 1px 1px 4px black;
+}
+.cont-direita video{
+    width: 100%;
+}
 /* Formatação de imagens com legenda */
 figure.foto-legenda{
     border: 8px solid white;
@@ -29,4 +42,9 @@ figure.foto-legenda figcaption{
 }
 figure.foto-legenda figcaption:hover{
     opacity: 1;
+}
+
+/* Formatação rodapé */
+.rodape{
+   margin-top: -15px; 
 }
