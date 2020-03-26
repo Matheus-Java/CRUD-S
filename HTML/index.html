@@ -20,41 +20,41 @@
 <body>
   <div class="container-fluid bg-fundo">
     <div class="container bg-conteudo">
-      <header id="cabecalho">
+      <header>
         <ul class="nav justify-content-end">
           <li class="nav-item">
-            <a class="nav-link active" href="#">Home</a>
+            <a class="nav-link active" href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Especificações</a>
+            <a class="nav-link" href="specs.html">Especificações</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Fotos</a>
+            <a class="nav-link" href="fotos.html">Fotos</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Multimídia</a>
+            <a class="nav-link" href="multimidia.html">Multimídia</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">Fale Conosco</a>
+            <a class="nav-link" href="fale-conosco.html">Fale Conosco</a>
           </li>
         </ul>
-        <hgroup>
+        <hgroup class="txt-header">
           <h1> Google Glass </h1>
           <h2>A revolução do Google está chegando</h2>
         </hgroup>
-        <img src="_imagens/glass-oculos-preto-peq.png">
+        <img class="icone img-fluid" src="_imagens/glass-oculos-preto-peq.png">
       </header>
       <hr>
-  
+
       <div class="row">
-        <div class="col-xs-12 col-sm-6 col-lg-8">
+        <div class="col-xs-12 col-sm-6 col-lg-7 cont-esquerda">
           <hgroup>
-            <h3>Tecnologia > Inovações </h3>
-            <h1>Saiba tudo sobre o Google Glass </h1>
-            <h2>por Matheus Artur </h2>
-            <h4>Atualizado em 27/fevereiro/2020</h4>
+            <h6>Tecnologia > Inovações </h6>
+            <h3>Saiba tudo sobre o Google Glass </h3>
+            <p>por Matheus Artur </p>
+            <span> <i>Atualizado em 27/fevereiro/2020 </i> </span>
           </hgroup>
-  
+
           <h2> O que é </h2>
           <p>
             O Google Glass é um acessório em forma de óculos que possibilita a interação dos usuários com diversos
@@ -70,13 +70,13 @@
           <figure class="foto-legenda">
             <img src="_imagens/glass-quadro-homem-mulher.jpg">
             <figcaption>
-              <h3>google Glass</h3>
+              <h3>Google Glass</h3>
               <p>uma nova maneira de ver o mundo!</p>
             </figcaption>
           </figure>
-  
+
           <h2> Data de lançamento </h2>
-  
+
           <p>
             Não há uma data específica e oficial para o dispositivo ser lançado, ainda. Pode ser que ele esteja
             disponível em demonstrações a partir de 2013, mas seu lançamento para as lojas fica para, pelo menos, 2014.
@@ -111,48 +111,56 @@
               </tr>
             </tbody>
           </table>
-  
+
           <h2>Como funciona</h2>
           <p>
             De acordo com fontes próximas do Google, os óculos vão contar com uma pequena tela de LCD ou AMOLED na parte
             superior e em frente aos olhos do usuário. Com o uso de uma câmera e GPS, você pode se situar, assim como
             selecionar opções com o movimento da cabeça.
           </p>
-  
+
           <h2>O que você pode fazer com o Google Glasses</h2>
           <p>
             O vídeo de divulgação do Google mostra que você pode se transformar em uma espécie de “super-humano”, já que
             o aparelho pode indicar a quantos metros você está de seu destino, se o metrô está aberto ou fechado,
             mostrar o clima, agenda e até mesmo permitir que você marque encontros apenas com comandos de voz.
           </p>
-  
-          <video controls>
-            <source src="_media/getting-started.mp4" type="video/mp4 ">
+
+          <video controls poster="_imagens/video-mini01.jpg">
+            <source src="_media/getting-started.mp4" type="video/mp4">
           </video>
         </div>
-  
-        <div class="col-xs-12 col-sm-6 col-lg-4 cont-direita">
-          <h3> Outras Notícias </h3>
-          <h3> Vídeo mais recente </h3>
-  
-          <video controls>
-            <source src="_media/how-it-feels.mp4" type="video/mp4">
-          </video>
-  
-          <h2>Novidades no Glass</h2>
-          <p>
-            O Google enfim revelou as especificações completas do Google Glass, e com ele uma surpresa ainda inédita no
-            mercado: a gigante das buscas usará um sistema de áudio baseado na transdução por condução. Através das
-            hastes dos óculos, o som será transmitido para o ouvido do usuário por meio de microvibrações em
-            determinados ossos de sua cabeça, sem usar nenhum tipo de alto-falante.
-          </p>
-  
-          <p>
-            Além da surpresa do áudio, a tela montada a frente do olho do usuário também chamou atenção. Serão 640 x 360
-            pixels de resolução que, em proporção, equivaleria a um monitor de 25 polegadas de alta definição colocado a
-            2,5 metros de distância do espectador.
-          </p>
+
+        <div class="col-xs-12 col-sm-6 col-lg-5 cont-direita">
+          <div class="row">
+            <div class="col-xs-12 col-sm-6 col-lg-10 aside">
+              <h3> Outras Notícias </h3>
+              <h3> Vídeo mais recente </h3>
+
+              <video controls poster="_imagens/video-mini02.jpg">
+                <source src="_media/how-it-feels.mp4" type="video/mp4">
+              </video>
+
+              <h2>Novidades no Glass</h2>
+              <p>
+                O Google enfim revelou as especificações completas do Google Glass, e com ele uma surpresa ainda inédita
+                no
+                mercado: a gigante das buscas usará um sistema de áudio baseado na transdução por condução. Através das
+                hastes dos óculos, o som será transmitido para o ouvido do usuário por meio de microvibrações em
+                determinados ossos de sua cabeça, sem usar nenhum tipo de alto-falante.
+              </p>
+
+              <p>
+                Além da surpresa do áudio, a tela montada a frente do olho do usuário também chamou atenção. Serão 640 x
+                360
+                pixels de resolução que, em proporção, equivaleria a um monitor de 25 polegadas de alta definição
+                colocado a
+                2,5 metros de distância do espectador.
+              </p>
+            </div>
+          </div>
         </div>
+
       </div>
       <!--Fim da row-->
       <footer class="rodape">
@@ -162,7 +170,7 @@
       </footer>
     </div>
   </div>
-  
+
 
   <!-- JavaScript (Opcional) -->
   <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
